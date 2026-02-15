@@ -1,8 +1,229 @@
-<html>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 
-  </body>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="animate-text">Hello, I'm <span class="highlight">Xander Jave P. Jamio</span></h1>
+                <h2 class="animate-text">I am a <span id="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="animate-text">Building the digital future, one line of code at a time.</p>
+                <div class="cta-buttons animate-text">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glow-circle">
+                    <img src="image.jpg" alt="Xander Jave P. Jamio" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am an Information Technology student interested in web development and software. I enjoy
+                        learning about computers and creating systems that can help solve problems. I am continuously
+                        improving my skills and exploring new technologies to gain more experience and grow in the IT
+                        field.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skill-category">
+                <h3>Web & Programming</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-php"></i>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-unity"></i>
+                        <h3>C# (Unity)</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>C++ (Arduino)</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>UI / Design & Media</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Photoshop</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Video Editing</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Network & Hardware</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-desktop"></i>
+                        <h3>PC Assembly</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>PC Maintenance</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-wrench"></i>
+                        <h3>Troubleshooting</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Networking</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Router Configuration</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Productivity & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-google"></i>
+                        <h3>Google Workspace</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-microsoft"></i>
+                        <h3>MS Office</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #ff00cc, #333399);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ProgressPath</h3>
+                        <p>A web-based academic management system that improves communication between students and
+                            faculty.
+                            Features include messaging, notifications, feedback, curriculum mapping, and student
+                            performance tracking.
+                            Built using PHP, MySQL, HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Demo</a>
+                            <a href="#" class="btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #00ccff, #333399);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CapyMail</h3>
+                        <p>A desktop-based email management system that allows users to send, receive, and organize
+                            messages.
+                            Developed to strengthen skills in Java programming, database integration, and system design
+                            using MySQL.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Demo</a>
+                            <a href="#" class="btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Chat!</h3>
+                    <p>I am open to OJT or internship opportunities in web development, software, or IT support. Please
+                        feel free to reach out if you would like to know more about my skills or discuss potential
+                        opportunities.</p>
+
+                    <a href="mailto:xanderjamio@g.cjc.edu.ph" class="email-link">
+                        <i class="fas fa-envelope"></i> xanderjamio@g.cjc.edu.ph
+                    </a>
+                    <a href="tel:+639454489792" class="phone-link">
+                        <i class="fas fa-phone"></i> +63 945 448 9792
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/xarvecapybara" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xander Jave Jamio. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
